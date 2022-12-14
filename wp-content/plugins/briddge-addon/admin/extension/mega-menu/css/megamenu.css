@@ -1,0 +1,16 @@
+/*
+ * Briddge Megamenu Admin Nav Walker Styles
+ */
+ .briddge-megamenu-wrap,
+ .briddge-megamenu-col-wrap,
+ .briddge-megamenu-widget-wrap {
+	 display: none;
+ }
+.menu-depth-0 .briddge-megamenu-wrap,
+.menu-depth-1.megamenu-actived .briddge-megamenu-col-wrap,
+.menu-depth-2.megamenu-actived .briddge-megamenu-widget-wrap {
+	display: inline-block;
+}
+.briddge-menu-icons {
+    font-family: themify;
+}
